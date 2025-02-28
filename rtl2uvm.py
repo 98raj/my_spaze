@@ -163,7 +163,7 @@ Returns:
 """
 def call_gemini(prompt):
     try:
-        genai.configure(api_key="410715606576-qvqadjgh7uuenefg56lg5o0nc3fftcp8.apps.googleusercontent.com")
+        genai.configure(api_key="AIzaSyBAgRac3cEm8GvsaVZ0ovsQTZqj56OqFRk")
         model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(prompt);
         return response.text
